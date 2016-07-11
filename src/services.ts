@@ -1,10 +1,10 @@
 // Import all services
-import {SampleService} from './services/sample.service';
+import {Ng2EmbedlyService} from "./services/ng2-embedly.service";
 
 // Export all services
-export * from './services/sample.service';
+export * from './services/ng2-embedly.service';
 
 // Export convenience property
 export const PROVIDERS: any[] = [
-  SampleService
+  Ng2EmbedlyService
 ];

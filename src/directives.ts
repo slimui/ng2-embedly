@@ -1,13 +1,13 @@
 // Import all directives
-import {SampleDirective} from './directives/sample.directive';
-import {SampleComponent} from './directives/sample.component';
+import {Ng2EmbedlyComponent} from "./directives/ng2-embedly.component";
+import {Ng2EmbedlyDirective} from "./directives/ng2-embedly.directive";
 
 // Export all directives
-export * from './directives/sample.directive';
-export * from './directives/sample.component';
+export * from './directives/ng2-embedly.component';
+export * from './directives/ng2-embedly.directive';
 
 // Export convenience property
 export const DIRECTIVES: any[] = [
-  SampleDirective,
-  SampleComponent
+  Ng2EmbedlyComponent,
+  Ng2EmbedlyDirective
 ];

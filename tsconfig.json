@@ -2,12 +2,14 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "module": "commonjs",
+    "moduleResolution": "node",
     "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "removeComments": true
   },
   "files": [
     "typings/index.d.ts",

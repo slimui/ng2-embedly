@@ -7,7 +7,9 @@
     "postinstall": "typings install",
     "prepublish": "tsc",
     "tsc": "tsc",
-    "typings": "typings"
+    "typings": "typings",
+    "watch": "tsc -w",
+    "build": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
